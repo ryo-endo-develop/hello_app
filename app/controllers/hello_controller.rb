@@ -1,4 +1,7 @@
 class HelloController < ApplicationController
-  def index
+  def index; end
+
+  def foobar
+    'foobar'.split(//)
   end
 end
